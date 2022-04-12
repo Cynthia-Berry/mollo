@@ -2,11 +2,12 @@
 $body-bg: #E5E5E5;;
 
 $primary:       #3C1D59;
-$secondary:     #F5EBFF;
-$info:          #E3C6FF;
+$secondary:     #E3C6FF;
+$info:          #F5EBFF;
 $success:       #A6C643;
 $warning:       #FF8937;
 
 
 
 @import "~node_modules/bootstrap/scss/bootstrap";
+@import "assets/scss/style";
