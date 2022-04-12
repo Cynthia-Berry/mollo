@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/home">
+      <img src="assets/images/mollo-logo.svg" alt="Mollo" width="90" height="24"
+           class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="company" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Company
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="company">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="features" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Features
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="features">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="help" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Help
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="help">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <button class="btn btn-link text-decoration-none text-primary me-5" routerLink="/login">Login</button>
+        <input class="btn btn-primary form-control" value="Sign up" routerLink="/sign-up">
+      </div>
+    </div>
+  </div>
+</nav>
