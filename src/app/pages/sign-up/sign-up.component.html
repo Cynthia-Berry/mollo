@@ -1,10 +1,12 @@
 <div class="mx-4">
   <app-auth-header></app-auth-header>
   <div class="d-flex flex-row justify-content-between pt-5">
-    <div class="d-lg-block mx-md-auto mx-sm-auto">
+    <div class="d-lg-block mx-md-auto mx-sm-auto w-50">
       <h4 class="text-primary fw-bold">Sign Up to Mollo</h4>
-      <small class="row-cols-6">Please enter your Mollo password and the email address associated with your account to
-        sign in.</small>
+      <small style="line-height: 24px;">
+        Please enter your Mollo password and the email address associated with your account to
+        sign in.
+      </small>
       <form [formGroup]="signUpForm">
         <div class="my-3">
           <label class="form-label">Fullname</label>
@@ -22,7 +24,7 @@
           <label class="form-label">Password</label>
           <input type="password" class="form-control" formControlName="password">
           <span class="float-end">
-            <img loading="lazy" src="assets/icons/eye-show.svg" alt="show-password">
+            <img loading="lazy" src="assets/icons/eye-show.svg" alt="show-password" class="password-eye">
           </span>
         </div>
         <div class="mt-5 d-grid gap-2">
@@ -31,7 +33,12 @@
       </form>
     </div>
     <div class="d-none d-lg-block position-relative">
-      <img loading="lazy" src="assets/images/auth-image.svg" alt="Auth" width="400" height="500" class="float-end">
+      <img src="assets/images/rectangle.svg" width="220" height="220"
+           class="rectangle position-absolute translate-middle" alt="Rectangle">
+      <img src="assets/images/circles.svg" width="350" height="450" class="circles position-absolute translate-middle"
+           alt="Circles">
+      <img loading="lazy" src="assets/images/auth-image.svg" alt="Auth" width="500" height="500" class="ms-5 float-end">
+      <img src="assets/images/circle-small.svg" class="donut position-absolute translate-middle" alt="Donut">
     </div>
   </div>
 </div>

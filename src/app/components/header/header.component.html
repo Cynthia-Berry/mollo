@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container">
     <a class="navbar-brand" routerLink="/home">
       <img src="assets/images/mollo-logo.svg" alt="Mollo" width="90" height="24"
            class="d-inline-block align-text-top">
@@ -21,7 +21,7 @@
             <li><a class="dropdown-item text-primary p-2" href="javascript:void(0)">Something else here</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown mx-5">
+        <li class="nav-item dropdown mx-lg-5">
           <a class="nav-link dropdown-toggle text-primary fw-bold" href="javascript:void(0)" id="features" role="button"
              data-bs-toggle="dropdown" aria-expanded="false">
             Features
@@ -53,9 +53,14 @@
           </ul>
         </li>
       </ul>
-      <div class="d-flex">
-        <button class="btn btn-link text-decoration-none text-primary me-5 fw-bold" routerLink="/login">Login</button>
-        <input class="btn btn-primary form-control" value="Sign up" routerLink="/sign-up">
+      <div class="row">
+        <div class="col d-grid">
+          <button class="btn btn-link text-decoration-none text-primary me-5 fw-bold" routerLink="/login">Login</button>
+        </div>
+        <div class="col d-grid">
+                  <input class="btn btn-primary form-control" value="Sign up" routerLink="/sign-up">
+<!--          <button class="btn btn-primary" value="Sign up" routerLink="/sign-up">Sign Up</button>-->
+        </div>
       </div>
     </div>
   </div>

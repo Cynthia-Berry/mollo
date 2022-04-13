@@ -6,3 +6,26 @@
   border-radius: 20px;
 }
 
+.password-eye {
+  position: absolute;
+  top: 43px;
+  right: 10px
+}
+
+.rectangle {
+  z-index: -1;
+  top: 23%;
+  left: 35%
+}
+
+.circles {
+  z-index: -1;
+  right: -36.2%;
+  top: 80%;
+}
+
+.donut {
+  z-index: 1;
+  right: -85px;
+  bottom: -55px;
+}
