@@ -11,3 +11,9 @@ $warning:       #FF8937;
 
 @import "~node_modules/bootstrap/scss/bootstrap";
 @import "assets/scss/style";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

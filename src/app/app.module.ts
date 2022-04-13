@@ -10,6 +10,7 @@ import { SignUpComponent } from './pages/sign-up/sign-up.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ReactiveFormsModule } from "@angular/forms";
 import { AuthHeaderComponent } from './components/auth-header/auth-header.component';
+import { AppstoreButtonsComponent } from './components/appstore-buttons/appstore-buttons.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AuthHeaderComponent } from './components/auth-header/auth-header.compon
     SignInComponent,
     SignUpComponent,
     HomeComponent,
-    AuthHeaderComponent
+    AuthHeaderComponent,
+    AppstoreButtonsComponent
   ],
   imports: [
     BrowserModule,
