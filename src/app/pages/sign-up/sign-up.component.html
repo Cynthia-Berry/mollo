@@ -1,37 +1,37 @@
-<div>
+<div class="mx-4">
   <app-auth-header></app-auth-header>
-
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-5">
-        <h4 class="text-primary fw-bold">Sign Up to Mollo</h4>
-        <small>Please enter your Mollo password and the email address associated with your account to sign in.</small>
-        <form [formGroup]="signUpForm">
-          <div class="my-3">
-            <label class="form-label">Fullname</label>
-            <input type="text" class="form-control" formControlName="fullname">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Phone Number</label>
-            <input type="text" class="form-control" formControlName="phone">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Email</label>
-            <input type="email" class="form-control" formControlName="email">
-          </div>
-          <div class="mb-3 position-relative">
-            <label class="form-label">Password</label>
-            <input type="password" class="form-control" formControlName="password">
-            <span class="float-end">
+  <div class="d-flex flex-row justify-content-between pt-5">
+    <div class="d-lg-block mx-md-auto mx-sm-auto">
+      <h4 class="text-primary fw-bold">Sign Up to Mollo</h4>
+      <small class="row-cols-6">Please enter your Mollo password and the email address associated with your account to
+        sign in.</small>
+      <form [formGroup]="signUpForm">
+        <div class="my-3">
+          <label class="form-label">Fullname</label>
+          <input type="text" class="form-control" formControlName="fullname">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Phone Number</label>
+          <input type="text" class="form-control" formControlName="phone">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" formControlName="email">
+        </div>
+        <div class="mb-3 position-relative">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password">
+          <span class="float-end">
             <img loading="lazy" src="assets/icons/eye-show.svg" alt="show-password">
           </span>
-          </div>
-          <div class="mt-5 d-grid gap-2">
-            <button type="button" class="btm btn-primary btn-lg">Sign Up</button>
-          </div>
-        </form>
-      </div>
-      <div class="col-6"></div>
+        </div>
+        <div class="mt-5 d-grid gap-2">
+          <button type="button" class="btm btn-primary btn-lg">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    <div class="d-none d-lg-block position-relative">
+      <img loading="lazy" src="assets/images/auth-image.svg" alt="Auth" width="400" height="500" class="float-end">
     </div>
   </div>
 </div>
