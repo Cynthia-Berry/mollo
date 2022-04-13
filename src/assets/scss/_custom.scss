@@ -5,6 +5,9 @@
   display: inline-block;
   border-radius: 20px;
 }
+small {
+  font-size: 12px;
+}
 
 .password-eye {
   position: absolute;
@@ -28,4 +31,38 @@
   z-index: 1;
   right: -85px;
   bottom: -55px;
+}
+
+@media screen and (max-width: 720px) {
+  .home-img{
+    position: relative;
+    top: 10px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-left: 30px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+  p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-img{
+    top: 20px;
+    width: 150px;
+    height: 150px;
+  }
+  h3 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  p, small{
+    font-size: 10px;
+    line-height: 12px;
+  }
 }

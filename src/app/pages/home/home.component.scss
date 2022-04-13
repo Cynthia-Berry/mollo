@@ -1,14 +1,41 @@
 #map {
   background-color: #FBFFF0;
+  margin-top: 0;
+
   &-container {
     background: url("../../../assets/images/map-bg.svg") no-repeat center;
     background-size: cover;
   }
 }
 
-#phone-2{
-  background: url("../../../assets/images/circle.svg") no-repeat center;
-  width: inherit;
-  float: end;
-  margin: 0 auto;
+#phone-2 {
+  border-radius: 50%;
+  background-color: #E3C6FF;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  position: relative;
+  bottom: 0;
+}
+
+.zone {
+  background-image: url("../../../assets/images/phone-4.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  z-index: 1000 !important;
+  object-fit: inherit;
+}
+
+@media screen and (max-width: 700px) {
+  #phone-2 {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #phone-2 {
+    width: 130px;
+    height: 130px;
+  }
 }
