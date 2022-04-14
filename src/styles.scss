@@ -10,8 +10,8 @@ $warning:       #FF8937;
 
 
 
-@import "~node_modules/bootstrap/scss/bootstrap";
-@import "assets/scss/style";
+@import "~bootstrap/scss/bootstrap";
+@import "assets/scss/custom";
 
 * {
   margin: 0;

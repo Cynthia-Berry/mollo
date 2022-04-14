@@ -18,12 +18,8 @@
   bottom: 0;
 }
 
-.zone {
-  background-image: url("../../../assets/images/phone-4.svg");
-  background-repeat: no-repeat;
-  background-position: center right;
-  z-index: 1000 !important;
-  object-fit: inherit;
+.bg-primary{
+  height: 300px;
 }
 
 @media screen and (max-width: 700px) {
@@ -37,8 +33,5 @@
   #phone-2 {
     width: 130px;
     height: 130px;
-  }
-  .zone {
-    display: none;
   }
 }
