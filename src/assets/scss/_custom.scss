@@ -5,6 +5,7 @@
   display: inline-block;
   border-radius: 20px;
 }
+
 small {
   font-size: 12px;
 }
@@ -27,9 +28,17 @@ small {
   top: 80%;
 }
 
-//.home-circles{
-//
-//}
+.ellipse {
+  position: relative;
+  top: 97%;
+  left: -45%;
+  width: 300px;
+  height: 50px;
+}
+
+.home-circles {
+
+}
 
 .donut {
   z-index: 1;
@@ -38,7 +47,7 @@ small {
 }
 
 @media screen and (max-width: 720px) {
-  .home-img{
+  .home-img {
     position: relative;
     top: 10px;
     width: 250px;
@@ -48,25 +57,39 @@ small {
   }
 
   h3 {
-    font-size: 16px;
+    font-size: 15px;
   }
-  p{
+  p {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .home-img{
-    top: 30px;
-    width: 150px;
+@media screen and (max-width: 600px) {
+  .home-img {
+    top: -15px;
+    width: 100px;
     height: 170px;
   }
   h3 {
+    margin-top: 10px;
     font-size: 14px;
     line-height: 17px;
   }
-  p, small{
+  p, small {
     font-size: 10px;
+  }
+  p {
     line-height: 12px;
+  }
+  small {
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
+    word-spacing: -1px;
+  }
+  .ellipse {
+    top: -68px;
+    left: 25px;
+    width: 100px;
   }
 }

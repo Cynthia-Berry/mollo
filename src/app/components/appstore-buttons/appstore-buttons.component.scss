@@ -1,3 +1,17 @@
 .app-store{
   border-radius: 20px;
 }
+
+@media screen and (max-width: 780px){
+  img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding-top: 5px;
+  }
+  small{
+    font-size: 9px;
+    margin-right: 4px;
+    padding: 5px;
+  }
+}

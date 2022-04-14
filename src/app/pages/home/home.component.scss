@@ -18,20 +18,93 @@
   bottom: 0;
 }
 
-.bg-primary{
-  height: 300px;
+.bg-primary {
+  height: 250px;
+  width: 88%;
 }
 
-@media screen and (max-width: 700px) {
+.block-1 {
+  margin-top: -20px;
+}
+
+.block-2 {
+  margin-top: -50px;
+}
+
+.register-banner {
+  margin-bottom: 70px;
+  margin-top: 80px;
+
+  .full-circle-1 {
+    z-index: 100;
+    left: 2%;
+    top: 40%;
+  }
+
+  .full-circle-2 {
+    z-index: 1000;
+    left: 90%;
+    top: 62%;
+  }
+}
+
+@media screen and (max-width: 770px) {
   #phone-2 {
     width: 220px;
     height: 220px;
   }
+  .bg-primary {
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px !important;
+  }
+  .block-1 {
+    margin-top: -50px;
+    padding: 20px;
+  }
+   .full-circle-1, .full-circle-2 {
+     width: 120px;
+     height: 100px;
+  }
+  .full-circle-1{
+    top: 32% !important;
+  }
+
+  .full-circle-2 {
+    top: 50% !important;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   #phone-2 {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+  }
+  .bg-primary {
+    height: 140px;
+  }
+  .block-1 {
+    margin-top: -5px;
+    padding-left: 20px;
+  }
+  .block-2 {
+    margin-top: 0;
+  }
+  .phone-4 {
+    height: 150px;
+    width: 100px;
+    position: relative;
+    bottom: -90%;
+  }
+  .register-banner {
+    margin-bottom: 40px;
+    margin-top: 30px;
+     .full-circle-1, .full-circle-2 {
+     width: 70px;
+     height: 70px;
+  }
   }
 }

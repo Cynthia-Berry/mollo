@@ -5,7 +5,7 @@
 
   <section class="p-md-4">
     <div class="d-flex flex-row">
-      <div class="d-md-block mx-md-auto mx-sm-auto w-75">
+      <div class="d-md-block mx-md-auto mx-sm-2 w-75 ms-sm-4">
         <div>
           <div class="chip mb-md-3 mt-sm-5">
             <small class="text-primary fw-bold mb-0">DIGITAL BANK</small>
@@ -17,7 +17,7 @@
             can be done in one spot.</small>
         </div>
         <div class="row mt-4">
-          <div class="col-md-7 d-grid">
+          <div class="col-md-7 mb-sm-0 d-grid">
             <button class="btn btn-primary">Get Started</button>
           </div>
         </div>
@@ -35,14 +35,12 @@
 
   <section class="p-md-4 mb-sm-5">
     <div class="d-flex flex-row">
-      <div class=" d-md-block">
+      <div class=" d-md-block w-50">
         <img loading="lazy" src="assets/images/phone.svg" alt="Phone" width="300" height="300"
              class="home-img float-start">
-        <img loading="lazy" src="assets/images/ellipse.svg" alt="Ellips" width="300" height="50"
-             class="home-img float-start"
-             style="position: relative; top: -15px">
+<!--        <img loading="lazy" src="assets/images/ellipse.svg" alt="Ellips" class=" ellipse float-start">-->
       </div>
-      <div class="d-md-block mx-md-auto mx-sm-auto w-75">
+      <div class="d-md-block mx-md-auto mx-sm-auto">
         <div>
           <div class="chip mb-md-3 mb-sm-3">
             <small class="text-primary fw-bold">BILL PAYMENT</small>
@@ -72,17 +70,14 @@
             </p>
           </div>
         </div>
-        <img src="assets/images/circles.svg" width="350" height="450" loading="lazy"
-             class="home-circles home-img position-absolute translate-middle"
-             alt="Circles" style="z-index: 1; right: -20.2%;top: -20%;">
       </div>
     </div>
   </section>
 
-  <section id="map" class="p-md-4 my-4">
-    <div id="map-container mx-4">
+  <section id="map" class="p-md-4 mb-4">
+    <div id="map-container">
       <div class="d-flex flex-row">
-        <div class="d-md-block mx-md-auto mx-sm-auto pe-2">
+        <div class="d-md-block mx-md-auto mx-sm-auto w-75 pe-2">
           <div>
             <div class="chip mb-md-3 my-sm-1">
               <small class="text-primary fw-bold">TRANSFER FUNDS</small>
@@ -112,8 +107,8 @@
             </div>
           </div>
         </div>
-        <div class="d-md-block ps-2 w-50">
-          <div id="phone-2">
+        <div class="d-md-block ps-2">
+          <div id="phone-2" class="me-sm-2">
             <img loading="lazy" src="assets/images/phone-2.svg" alt="Phone" width="350" height="350"
                  class="home-img float-end">
           </div>
@@ -122,18 +117,18 @@
     </div>
   </section>
 
-  <section class="p-md-4 my-3">
+  <section class="p-md-4 my-md-5">
     <div class="d-flex flex-row">
-      <div class="d-md-block me-md-5">
+      <div class="d-md-block me-md-5 ms-sm-4 w-50">
         <img loading="lazy" src="assets/images/phone-3.svg" alt="Phone" width="300" height="300"
-             class="home-img float-start">
+             class="home-img float-start ms-sm-0 ps-sm-0">
       </div>
-      <div class="d-md-block ms-md-4 w-75">
+      <div class="d-md-block ms-md-4 ms-sm-5">
         <div>
-          <div class="chip mb-3">
+          <div class="chip mb-md-3">
             <small class="text-primary fw-bold">VIRTUAL CARDS</small>
           </div>
-          <h3 class="text-primary fw-bold mb-3">Get an authentic card that pays you back..</h3>
+          <h3 class="text-primary fw-bold mb-md-3">Get an authentic card that pays you back..</h3>
           <small>
             The Mollo debit card gives you more financial control, security, and access to deals.
           </small>
@@ -166,26 +161,33 @@
     </div>
   </section>
 
-  <section style="margin-bottom: 100px">
-    <div class="bg-primary mx-auto" style="width: 90%">
+
+  <section class="register-banner">
+    <div class="bg-primary mx-auto">
       <div class="d-flex flex-row align-items-center my-sm-5">
-        <div style="margin-top:-100px" class="d-md-block ms-md-4 w-75">
+        <div class="block-1 d-md-block ms-md-4 w-75">
           <div class="text-white">
-            <h3 class="fw-bold mb-3">Register For Free</h3>
-            <small>
-              Mollo is available on Google Play and the App Store.To enjoy <br> ultimate financial security</small>
+            <h3 class="fw-bold mb-md-3 my-sm-0 py-sm-0-">Register For Free</h3>
+            <small class="mb-sm-0 py-sm-0">
+              Mollo is available on Google Play and the App Store.To enjoy ultimate financial security</small>
             <app-appstore-buttons></app-appstore-buttons>
           </div>
         </div>
-        <div style="margin-top:-80px" class="d-md-block me-md-5">
-          <img loading="lazy" src="assets/images/phone-4.svg" alt="Phone">
+        <div class="position-relative block-2 d-md-block me-md-5">
+          <img loading="lazy" src="assets/images/circle-full.svg" alt="Circle" width="150" height="150"
+               class="full-circle-1 position-absolute translate-middle">
+          <img loading="lazy" src="assets/images/phone-4.svg" alt="Phone" width="200" height="350"
+               class="phone-4 float-start" style="z-index: 100000;">
+          <img loading="lazy" src="assets/images/circle-full.svg" alt="Circle" width="150" height="150"
+               class="full-circle-2 position-absolute translate-middle">
+
         </div>
       </div>
 
     </div>
   </section>
 
-  <section class="p-md-4 mt-5">
+  <section class="p-md-4 mt-md-5">
     <app-footer></app-footer>
   </section>
 </div>
